@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<title>
+  
+    前端小技巧
+  
+</title>
+
+<meta name="description" content="前端小技巧HTML布局12345678910111213141516一.关于盒子:1. 划分盒子2. 写结构3. 初始化盒子4. 摆放盒子5. 完善细节二.盒子与盒子中间的线可以单设一个类,然后调用,父相子绝调整位置例: .line &amp;#123;  width:1px;  height:80%;  background-color:red;  position:absolute;  right:0">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端小技巧">
+<meta property="og:url" content="http://yoursite.com/2018/04/09/前端小技巧/index.html">
+<meta property="og:site_name" content="追马爱上了芦雅">
+<meta property="og:description" content="前端小技巧HTML布局12345678910111213141516一.关于盒子:1. 划分盒子2. 写结构3. 初始化盒子4. 摆放盒子5. 完善细节二.盒子与盒子中间的线可以单设一个类,然后调用,父相子绝调整位置例: .line &amp;#123;  width:1px;  height:80%;  background-color:red;  position:absolute;  right:0">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-07-09T07:58:14.923Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="前端小技巧">
+<meta name="twitter:description" content="前端小技巧HTML布局12345678910111213141516一.关于盒子:1. 划分盒子2. 写结构3. 初始化盒子4. 摆放盒子5. 完善细节二.盒子与盒子中间的线可以单设一个类,然后调用,父相子绝调整位置例: .line &amp;#123;  width:1px;  height:80%;  background-color:red;  position:absolute;  right:0">
+
+
+  <link rel="alternative" href="/atom.xml" title="追马爱上了芦雅" type="application/atom+xml">
+
+
+
+  <link rel="icon" href="/favicon.png">
+
+
+<link rel="stylesheet" href="/perfect-scrollbar/css/perfect-scrollbar.min.css">
+<link rel="stylesheet" href="/styles/main.css">
+
+
+
+
+
+
+</head>
+<body class="monochrome">
+  <div class="mobile-header">
+  <button class="sidebar-toggle" type="button">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="title" href="/">追马爱上了芦雅</a>
+</div>
+
+  <div class="main-container">
+    <div class="sidebar">
+  <div class="header">
+    <h1 class="title"><a href="/">追马爱上了芦雅</a></h1>
+    
+    <div class="info">
+      <div class="content">
+        
+        
+          <div class="author">John Doe</div>
+        
+      </div>
+      
+        <div class="avatar">
+          
+            <a href="/about"><img src="https://cn.gravatar.com/avatar/35fef74d731255cd569c2c2b0b9e87e4?s=200"></a>
+          
+        </div>
+      
+    </div>
+  </div>
+  <div class="body">
+    
+      
+        <ul class="nav">
+          
+            
+              <li class="category-list-container">
+                <a href="javascript:;">分类</a>
+                
+              </li>
+            
+          
+            
+              <li class="tag-list-container">
+                <a href="javascript:;">标签</a>
+                
+              </li>
+            
+          
+            
+              <li class="archive-list-container">
+                <a href="javascript:;">归档</a>
+                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">2</span></li></ul>
+              </li>
+            
+          
+        </ul>
+      
+        <ul class="nav">
+          
+            
+              <li>
+                <a href="/" title="Homepage">Homepage</a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="/archives" title="By Year">By Year</a>
+              </li>
+            
+          
+        </ul>
+      
+        <ul class="nav">
+          
+            
+              <li>
+                <a href="https://github.com/denjones/hexo-theme-chan" title="Chan" target="_blank" rel="noopener">Chan</a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="https://github.com/denjones" title="Github" target="_blank" rel="noopener">Github</a>
+              </li>
+            
+          
+            
+              <li>
+                <a href="/atom.xml" title="RSS">RSS</a>
+              </li>
+            
+          
+        </ul>
+      
+    
+  </div>
+</div>
+
+    <div class="main-content">
+      
+        <div style="max-width: 1000px">
+      
+          <article id="post-前端小技巧" class="article article-type-post">
+  
+    <h1 class="article-header">
+      前端小技巧
+    </h1>
+  
+  
+
+  <div class="article-info">
+    <span class="article-date">
+  2018-04-09
+</span>
+
+    
+
+    
+
+  </div>
+  <div class="article-entry">
+    <h3 id="前端小技巧"><a href="#前端小技巧" class="headerlink" title="前端小技巧"></a>前端小技巧</h3><h4 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h4><h4 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">一.关于盒子:</span><br><span class="line">1. 划分盒子</span><br><span class="line">2. 写结构</span><br><span class="line">3. 初始化盒子</span><br><span class="line">4. 摆放盒子</span><br><span class="line">5. 完善细节</span><br><span class="line">二.盒子与盒子中间的线</span><br><span class="line">可以单设一个类,然后调用,父相子绝调整位置</span><br><span class="line">例: <span class="selector-class">.line</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>:<span class="number">1px</span>;</span><br><span class="line">  <span class="attribute">height</span>:<span class="number">80%</span>;</span><br><span class="line">  <span class="attribute">background-color</span>:red;</span><br><span class="line">  <span class="attribute">position</span>:absolute;</span><br><span class="line">  <span class="attribute">right</span>:<span class="number">0</span>;</span><br><span class="line">  <span class="attribute">top</span>:<span class="number">10%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="JS代码优化"><a href="#JS代码优化" class="headerlink" title="JS代码优化"></a>JS代码优化</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">变量代码没法封装</span><br><span class="line">功能型代码最好封装为一个函数，然后自调用。</span><br><span class="line">（<span class="function"><span class="keyword">function</span> <span class="title">fn</span>(<span class="params"></span>) </span>&#123;&#125;)();</span><br></pre></td></tr></table></figure>
+
+<h2 id="版心："><a href="#版心：" class="headerlink" title="版心："></a>版心：</h2><blockquote>
+<p>是约束网页的一个具体的值</p>
+</blockquote>
+<p>为什么要有版心?</p>
+<blockquote>
+<p>因为电脑的屏幕不一样大，为了在不同的电脑上视觉效果一致，我们需要版心作为约束</p>
+</blockquote>
+<p>版心的公共类的设定</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.container &#123;</span><br><span class="line">	width: 1280px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&lt;div class=&quot;container&quot;&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>特殊情况：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">设计师会给你一张很大的图片 1920 * 1000  (是为了适应不同的屏幕) </span><br><span class="line">但是版心只有1280 </span><br><span class="line"></span><br><span class="line">问：图片怎么处理</span><br><span class="line"></span><br><span class="line">答：这个盒子不做约束 width:100%;  这个图片作为背景图片放到这个盒子里面 </span><br><span class="line">同时background-position:center 0;</span><br></pre></td></tr></table></figure>
+
+<h2 id="ps的使用"><a href="#ps的使用" class="headerlink" title="ps的使用"></a>ps的使用</h2><p>基本设置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1、ctrl+k  打开首选项----单位与标尺--- 将单位都改成像素</span><br><span class="line">2、V工具状态下 在属性栏里面干掉自动选择 同时将组设置为图层</span><br><span class="line">3. 按住空格 可以移动画布</span><br></pre></td></tr></table></figure>
+
+<p>切片工具的使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">切片工具：c</span><br><span class="line">c是一个工具组 我们需要的是里面的切片工具 </span><br><span class="line">shift + c 切换切片工具组</span><br><span class="line">临时切换到切片选择工具：在切片工具下，按住ctrl不放，会临时将切片工具转换成切片选择工具</span><br><span class="line">打开标尺 ctrl+r</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1.cursor </span><br><span class="line">	pointer 小手</span><br><span class="line">	default 箭头</span><br><span class="line">	text 文本</span><br><span class="line">	move 移动</span><br><span class="line">	url(),临时替换的样式</span><br><span class="line">2.outline:none;</span><br><span class="line">	去掉选中之后的蓝色边框</span><br><span class="line">3.resize:none;</span><br><span class="line">	去掉文本域的自动拉伸效果</span><br></pre></td></tr></table></figure>
+
+<h2 id="品优购目录搭建"><a href="#品优购目录搭建" class="headerlink" title="品优购目录搭建"></a>品优购目录搭建</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">项目文件夹	：最大的文件夹，所有的项目文件都存放在这个文件夹里面 例如：pinyougou</span><br><span class="line">css文件夹	：专门用来存放css文件的文件夹</span><br><span class="line">images文件夹：专门用来存放不怎么更新的图片的文件夹</span><br><span class="line">upload文件夹：专门用来存放时常更新的产品图的文件夹</span><br><span class="line">fonts文件夹 ：专门用来存放字体相关的文件夹</span><br></pre></td></tr></table></figure>
+
+
+  </div>
+  <footer class="article-footer">
+    
+  <div class="cc">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" title="署名-相同方式共享">
+      <img src="/images/cc/cc.png">
+      
+          <img src="/images/cc/by.png">
+        
+          <img src="/images/cc/sa.png">
+      
+      <span>
+        本作品采用知识共享 署名-相同方式共享 4.0 国际许可协议进行许可。
+      </span>
+    </a>
+  </div>
+
+
+    
+
+  </footer>
+</article>
+
+
+
+
+
+
+
+          <div class="main-footer">
+  
+    © 2019 追马爱上了芦雅 - Powered by <a href="http://hexo.io" target="_blank">Hexo</a> - Theme <a href="https://github.com/denjones/hexo-theme-chan" target="_blank">Chan</a>
+  
+</div>
+
+      
+        </div>
+      
+    </div>
+  </div>
+  <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="/PhotoSwipe/photoswipe.css">
+  <link rel="stylesheet" href="/PhotoSwipe/default-skin/default-skin.css">
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+             It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/PhotoSwipe/photoswipe.js"></script>
+  <script src="/PhotoSwipe/photoswipe-ui-default.js"></script>
+
+
+<script src="/perfect-scrollbar/js/min/perfect-scrollbar.min.js"></script>
+<script src="/scripts/main.js"></script>
+
+</body>
+</html>
